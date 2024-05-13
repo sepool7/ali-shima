@@ -1,0 +1,197 @@
+/* WeddingWebsite.css */
+
+/* Styles for the main wedding invitation container */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #4f0101; /* Dark purple background color */
+  font-family: Arial, sans-serif;
+  color: #fff; /* White text color */
+}
+.wedding-invitation {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #4f0101; /* Dark purple background color */
+  color: #fff; /* White text color */
+  border-radius: 10px; /* Rounded corners for the container */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  /* animation: heartbeat 1s infinite alternate; */
+}
+
+/* Heartbeat animation */
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+
+/* Styles for the header section */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin-bottom: 5px;
+}
+
+.header h2 {
+  font-size: 1.5em;
+  color: #ddd;
+}
+
+/* Styles for the main content section */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styles for the image container */
+.image-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%; /* Make the image round */
+  overflow: hidden; /* Hide overflowing content to ensure round shape */
+  object-fit: cover; /* Ensure the image covers the container */
+}
+
+/* Styles for the details container */
+.details-container {
+  flex: 1;
+}
+/* WeddingWebsite.css */
+
+/* Styles for the main wedding invitation container */
+
+/* Existing CSS rules... */
+
+.details-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align buttons to the right */
+}
+
+.google-maps-button,
+.custom-button {
+  margin-top: 10px; /* Adjust margin between buttons */
+}
+
+/* More existing CSS rules... */
+
+.details-container h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.details-container p {
+  margin-bottom: 10px;
+}
+
+.details-container .rsvp-button {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Add this CSS to your WeddingWebsite.css file */
+
+.google-maps-button {
+  padding: 10px 20px;
+  background-color: #4a235a; /* Dark purple */
+  border: 2px solid #fff; /* White border */
+  color: #fff; /* White text color */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px; /* Increased top margin for spacing */
+  cursor: pointer;
+  border-radius: 25px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+.google-maps-button:hover {
+  background-color: #fff; /* White background on hover */
+  color: #4a235a; /* Dark purple text color on hover */
+  border-color: #4a235a; /* Dark purple border color on hover */
+}
+
+
+.details-container .rsvp-button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the couple images container */
+.couple-images {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+/* Add this CSS to your WeddingWebsite.css file */
+
+.custom-button {
+  padding: 10px 20px;
+  background-color: #4a235a; /* Dark purple */
+  border: 2px solid #fff; /* White border */
+  color: #fff; /* White text color */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px; /* Increased top margin for spacing */
+  cursor: pointer;
+  border-radius: 25px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+.custom-button:hover {
+  background-color: #fff; /* White background on hover */
+  color: #0a020d; /* Dark purple text color on hover */
+  border-color: #493850; /* Dark purple border color on hover */
+}
+
+
+.couple-images img {
+  width: 45%;
+  border-radius: 50%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .image-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .couple-images {
+    flex-direction: column;
+  }
+
+  .couple-images img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
