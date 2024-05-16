@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -93,14 +93,30 @@ header h1 {
 @media (max-width: 768px) {
   .wedding-invitation {
     flex-direction: column;
+    align-items: center;
   }
 
   .image-container,
   .details-container {
     width: 100%;
+    max-width: 100%;
   }
 
-  .image-container {
-    max-width: 100%; /* Larger Image Container on Small Screens */
+  header h1 {
+    font-size: 2rem; /* Smaller font size for mobile */
+  }
+
+  .details-container h2 {
+    font-size: 1.5rem; /* Smaller font size for mobile */
+  }
+
+  .details-container p {
+    font-size: 1rem; /* Adjust body text size for mobile */
+  }
+
+  .google-maps-button,
+  .custom-button {
+    font-size: 14px; /* Adjust button text size for mobile */
+    padding: 8px 16px; /* Adjust button padding for mobile */
   }
 }
