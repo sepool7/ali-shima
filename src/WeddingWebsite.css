@@ -47,18 +47,9 @@ body, html {
   align-items: center;
 }
 
-header h1 {
-  font-size: 3rem;
-  font-family: 'Cinzel', serif; /* Heading Font */
-  color: #b45f06; /* Match the color in the image */
-  margin: 0;
-}
-
-.details-container h2 {
-  font-size: 2rem;
-  font-family: 'Cinzel', serif; /* Subheading Font */
-  color: #b45f06; /* Match the color in the image */
-  margin: 10px 0;
+.names-image {
+  max-width: 100%;
+  height: auto;
 }
 
 .details-container p {
@@ -115,12 +106,8 @@ header h1 {
     height: auto; /* Adjust the image to maintain aspect ratio */
   }
 
-  header h1 {
-    font-size: 2rem; /* Smaller font size for mobile */
-  }
-
-  .details-container h2 {
-    font-size: 1.5rem; /* Smaller font size for mobile */
+  .names-image {
+    width: 80%; /* Adjust width for mobile view */
   }
 
   .details-container p {

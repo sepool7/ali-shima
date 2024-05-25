@@ -1,5 +1,6 @@
 import React from 'react';
 import './WeddingWebsite.css'; // Import your CSS file for styling
+import namesImage from './alishima.png'; // Import the image file
 
 function App() {
   const weddingDetails = {
@@ -22,9 +23,7 @@ function App() {
       </div>
       <div className="details-container">
         <header>
-          <h1>ALI ADIM</h1>
-          <h2>and</h2>
-          <h1>SHIMA GHANDI NEJAD</h1>
+          <img src={namesImage} alt="Ali & Shima" className="names-image" />
         </header>
         <p>{weddingDetails.date} at {weddingDetails.time}</p>
         <p dangerouslySetInnerHTML={{ __html: weddingDetails.description }} />
