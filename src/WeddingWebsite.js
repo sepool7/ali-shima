@@ -44,7 +44,7 @@ function App() {
             onClick={() => window.open('https://www.paypal.me/rasouladim/', '_blank')}
             className="custom-button"
           >
-            Give My Fucking Money
+            Gift
           </button>
         </div>
       </div>
