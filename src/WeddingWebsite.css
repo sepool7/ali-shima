@@ -104,7 +104,9 @@ body, html {
   }
 
   .image-container img {
-    height: auto; /* Adjust the image to maintain aspect ratio */
+    width: 100%;
+    height: 50vh; /* Adjust the image height to be responsive */
+    object-fit: cover; /* Adjust the image to maintain aspect ratio */
   }
 
   .names-image {
