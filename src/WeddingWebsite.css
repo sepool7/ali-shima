@@ -48,8 +48,9 @@ body, html {
 }
 
 .names-image {
-  max-width: 100%;
+  max-width: 80%; /* Adjust the width for desktop */
   height: auto;
+  margin-bottom: 20px; /* Add some spacing below the image */
 }
 
 .details-container p {
@@ -107,7 +108,8 @@ body, html {
   }
 
   .names-image {
-    width: 80%; /* Adjust width for mobile view */
+    width: 70%; /* Adjust width for mobile view */
+    margin-bottom: 20px; /* Add some spacing below the image */
   }
 
   .details-container p {
