@@ -5,7 +5,7 @@ import namesImage from './alishima.png'; // Import the image file
 function App() {
   const weddingDetails = {
     coupleNames: 'ALI & SHIMA',
-    date: 'Tuesday, AUG 20, 2025',
+    date: 'Tuesday, August 20, 2025',
     time: '5:00 PM',
     location: 'https://www.google.com/maps/place/Strada+Scaparoni,+45,+12051+Alba+CN,+Italia/@44.707223,7.905322,17z/data=!3m1!4b1!4m5!3m4!1s0x4724c1f020e2d04f:0x2b0f2f3b6d2d9f13!8m2!3d44.707223!4d7.905322',
     rsvpLink: 'https://docs.google.com/forms/d/1A3yYwhwOvWMU_4BlvU7VdiFzt_Cy_brwpiqQnDBdk6w/edit', // Optional RSVP link
