@@ -109,6 +109,7 @@ body, html {
 
   .names-image {
     width: 70%; /* Adjust width for mobile view */
+    max-width: 300px; /* Ensure it doesn't get too large */
     margin-bottom: 20px; /* Add some spacing below the image */
   }
 
