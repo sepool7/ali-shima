@@ -105,7 +105,9 @@ body, html {
   }
 
   .image-container img {
-    height: auto; /* Adjust the image to maintain aspect ratio */
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    max-height: 50vh; /* Ensure it doesn't get too large */
   }
 
   .names-image {
